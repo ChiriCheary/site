@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Записуйся, вже.</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            background-image: url('D:/Study/Unik/Code/web/imeg/background.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-attachment: fixed; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            margin: 0;
+        }
+
+        .center-text {
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center-text">
+        <h1>
+            Введіть свою контактну інформацію, <br> ми зв'яжемось з вами в найбличий термін.
+        </h1>
+        <form>
+            <p>
+                Хочеш спробувати цю гру, та розповісти нам про баги які ти знайшов?<br>Записуйся для тест-драйву:
+            </p>
+            <label for="initials-input">Введіть свій ПІБ:</label>
+            <input type="text" id="initials-input" />
+            <label for="mail-input">Введіть свою електронну пошту:</label>
+            <input type="email" id="mail-input" />
+            <button>Так!</button>
+        </form>
+</div>
+</body>
+</html>
